@@ -31,7 +31,6 @@ class InitAllHouses extends React.PureComponent {
     e.preventDefault();
     if (this.item.build !== e.currentTarget.getAttribute('databuild')) {
       this.item.build = e.currentTarget.getAttribute('databuild');
-      console.log(this.item);
       this.props.dispatch({ type: "changeInitList", payload: this.item });
     }
   }

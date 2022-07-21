@@ -11,7 +11,6 @@ class InitAllHouses extends React.PureComponent {
 };
 
   render() {
-console.log(this.props.initState.allHouses);
     return (
       <AllHouses
         list={this.props.initState.allHouses} />

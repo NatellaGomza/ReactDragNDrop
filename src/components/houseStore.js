@@ -13,7 +13,6 @@ function houseStore(state = initState, action) {
   switch (action.type) {
 
     case "changeInitList": {
-      console.log(item);
       const newState = {...state};
      const newArr = newState.allHouses.map((el) =>{
       if(el.id === item.id) {

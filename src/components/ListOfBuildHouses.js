@@ -8,7 +8,6 @@ import './AllHouses.css';
 class ListOfBuildAllHouses extends React.PureComponent {
 
   static propTypes = {
-    header: PropTypes.string.isRequired,
     list: PropTypes.arrayOf(
       PropTypes.shape({
         id: PropTypes.number.isRequired,
