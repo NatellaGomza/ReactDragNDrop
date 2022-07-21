@@ -1,0 +1,55 @@
+.wrapper {
+    border: 1px solid black;
+    width:90vw;
+    height:90vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unbuild {
+    flex-basis:50%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.build {
+    flex-basis:50%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buildHouseWrapper {
+    height:90%;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.header {
+    height:20%;
+    text-align: center;
+}
+
+.innerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height:80%;
+}
+
+.houses {
+    display: flex;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+}
